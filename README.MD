@@ -3,7 +3,8 @@
 ### Tutorial
 
 Step 1: Find some free available APIs (Example of site with free
-APIs: https://rapidapi.com/collection/list-of-free-apis)
+APIs: https://rapidapi.com/collection/list-of-free-apis) 
+##### I am using: https://fakestoreapi.com/products
 
 Step 2: Make some base structure in HTML with table (I am also adding style inside tags)
 
@@ -11,7 +12,7 @@ Step 3: We are going to code our fetch
 
 ```javascript
 // We make a request to a server
-fetch("https://fakestoreapi.com/products?title")
+fetch("https://fakestoreapi.com/products")
     // Fetch returns a "Promise", that resolves to the response from the server
     // Promise gets two response. ".then" - for response and show data from fetch,
     // or ".catch" - for any errors that may occur during fetch.
