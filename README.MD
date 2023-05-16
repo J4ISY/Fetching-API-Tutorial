@@ -4,7 +4,7 @@
 
 Step 1: Find some free available APIs (Example of site with free
 APIs: https://rapidapi.com/collection/list-of-free-apis) 
-#### I am using: https://fakestoreapi.com/products
+##### I am using: https://fakestoreapi.com/products
 
 Step 2: Make some base structure in HTML with table (I am also adding style inside tags)
 
