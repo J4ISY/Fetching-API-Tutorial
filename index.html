@@ -5,9 +5,70 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script src="src/scripts/script.js" async defer></script>
+    <title>Displaying APIs data</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            width: 500px;
+            color: white;
+            border: 1px solid white;
+        }
+        thead {
+            background-color: black;
+            color: wheat;
+        }
+        th {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            border-bottom: 1px solid white;
+            font-size: 30px;
+        }
+        td {
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+            text-align: center;
+            font-size: 20px;
+        }
+        td:last-child {
+            border-right: none;
+        }
+        img {
+            width: 200px;
+        }
+    </style>
+
 </head>
 <body>
 
+    <h1>Displaying APIs data</h1>
+
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Image</th>
+            </tr>
+            </thead>
+            <tbody>
+<!-- Content of API is deployed here -->
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
