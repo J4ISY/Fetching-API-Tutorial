@@ -1,4 +1,4 @@
-fetch("https://fakestoreapi.com/products?title")
+fetch("https://fakestoreapi.com/products")
     .then(response => response.json())
     .then(data => {
     let tableData = "";
@@ -7,6 +7,7 @@ fetch("https://fakestoreapi.com/products?title")
         <tr>
             <td>${values.title}</td>
             <td>${values.description}</td>
+            <td>${values.rating.rate}</td>
             <td>${values.price}</td>
             <td><img src="${values.image}" alt=""></td>
         </tr>

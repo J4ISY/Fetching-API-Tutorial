@@ -29,8 +29,12 @@ fetch("https://fakestoreapi.com/products?title")
         <tr>
             <td>${values.title}</td>
             <td>${values.description}</td>
+            // Here, we have values.rating.rate, because values is object that we are destructuring, but also rating is object, so we have object Object.
+            // So, we are destructuring rating by dot and then we type rate
+            <td>${values.rating.rate}</td>
             <td>${values.price}</td>
             <td><img src="${values.image}" alt=""></td>
+        // There are more values, like: values.id, values.category, values.rating.count. You can try adding them by yourself. 
         </tr>
 `
         });
